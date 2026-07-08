@@ -130,7 +130,7 @@ pip install -r requirements.txt
 python src/pipeline.py
 ```
 
-The script downloads the data, trains all models, prints metrics to the console, and writes CSVs to `outputs/` and PNGs to `figures/`. A full run takes a few minutes on CPU (the grid searches and NN training dominate).
+The script downloads the data, trains all models, prints metrics to the console, and displays PNGs. A full run takes a few minutes on CPU (the grid searches and NN training dominate).
 
 To change the assets or period, edit the constants near the top of `src/cf969_sp_pipeline.py`:
 
